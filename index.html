@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=DynaPuff&family=Merriweather:wght@400;700&family=Poppins:wght@400;500&family=Roboto+Mono:wght@100;500&family=Roboto:wght@100&family=Signika+Negative:wght@300;400&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <style type="text/tailwindcss">
+      html, body {
+        scroll-behavior: smooth;
+      }
+      * {
+        font-family: "Ubuntu", sans-serif;
+      }
+      #hero span {
+        font-family: "Signika Negative", sans-serif;
+      }
+      .brand h1 {
+        font-family: "Signika Negative", sans-serif;
+      }
+      .navbar {
+        background-color: white;
+        opacity: 0.8;
+        backdrop-filter: blur(5px);
+      }
+      #about h1 {
+        font-family: "Poppins", sans-serif;
+        
+      }
+      #project h1 {
+        font-family: "Poppins", sans-serif;
+      }
+      footer h1 {
+        font-family: "Poppins", sans-serif;
+      }
+
+    </style>
+  </head>
+  <body id="home" class="">
+    <!-- navbar -->
+    <section class="navbar fixed w-full m-auto top-0 z-50">
+      <div class="container w-4/5 m-auto lg:w-4/5 lg:m-auto lg:flex lg:justify-between">
+        <div class="brand pt-3">
+          <h1 class="text-2xl text-center lg:text-4xl font-bold">My<span class="text-teal-700 ">Portfolio</span></h1>
+        </div>
+        <div class="navigation mt-2 py-2">
+          <ul class="text-sm flex justify-center lg:flex lg:justify-around lg:text-base lg:font-semibold lg:pt-3 font-bold">
+            <li class="px-3 hover:bg-teal-700 hover:rounded-full hover:text-white lg:hover:text-ms hover:shadow-xl ease-in-out duration-300"><a href="#home">Home</a></li>
+            <li class="px-3 hover:bg-teal-700 hover:rounded-full hover:text-white lg:hover:text-ms hover:shadow-xl ease-in-out duration-300"><a href="#about">About</a></li>
+            <li class="px-3 hover:bg-teal-700 hover:rounded-full hover:text-white lg:hover:text-ms hover:shadow-xl ease-in-out duration-300"><a href="#project">Project</a></li>
+            <li class="px-3 hover:bg-teal-700 hover:rounded-full hover:text-white lg:hover:text-ms hover:shadow-xl ease-in-out duration-300"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end navbar -->
+    <!-- hero -->
+    <section class="w-full mt-36 lg:mt-40 r">
+      <div class="container  mt-14 lg:w-3/4 lg:m-auto lg:-mt-16 lg:shadow-xl" id="hero">
+        <div class=" lg:flex lg:flex-wrap pl-5 lg:pl-0 ">
+          <div class="w-full lg:self-center px-4 lg:w-1/2">
+            <h1 class="capitalize text-teal-800 font-semibold text-sm lg:text-xl">Hai semua🖐 nama saya, <span class="text-slate-900 text-4xl font-bold block lg:text-6xl">Sastra Pradana</span></h1>
+            <p class="text-xs font-semibold capitalize mt-2 lg:text-sm">mahasiswa | web developer</p>
+            <p class="mt-3 text-sm capitalize text-slate-900">"boleh miskin harta tapi jangan miskin ilmu"</p>
+            <button class="capitalize text-xs text-white mt-5 bg-teal-800 rounded-full p-3 w-36 shadow-lg hover:bg-teal-700 lg:text-sm"><a href="https://wa.me/+6283183679470">hubungi saya</a></button>
+          </div>
+          <div class="lg:self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative">
+              <img src="img/2.png" alt="Sastra Pradana" class="max-w-full mx-auto" />
+              <span class="absolute bottom-3 ml-5  -z-20 left-1/2 -translate-x-1/2">
+                <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#115e59"
+                    d="M51.9,-24.9C56.1,-3.9,40.7,15.4,21.6,29.1C2.6,42.7,-20,50.7,-35.5,41.2C-51.1,31.8,-59.5,4.8,-52.4,-20.2C-45.3,-45.2,-22.6,-68.3,0.6,-68.5C23.8,-68.7,47.7,-45.9,51.9,-24.9Z"
+                    transform="translate(100 100)"
+                  ></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="lg:w-full lg:m-auto lg:animate-bounce">
+            <a href="#about"><img src="img/down-arrow.png" class="pr-10 lg:pr-0 lg:m-auto lg:-mt-5 w-10 lg:hover:bg-teal-600 lg:hover:rounded-full lg:duration-700 ease-in-out" alt="down" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+    <!-- about -->
+    <section class="w-11/12 mt-10 mx-auto  lg:ml-0 lg:shadow-xl lg:w-full lg:bg-gray-300  lg:mt-0" id="about">
+      <h4 class="text-center text-teal-700 font-semibold lg:font-bold lg:pt-7">About</h4>
+      <div class="container mt-7  w-4/5 mx-auto  lg:flex lg:justify-around lg:w-3/4 lg:shadow-xl
+      lg:border lg:bg-white lg:pt-5 lg:rounded-lg ">
+        <div class="shadow-xl w-full lg:shadow-none">
+          <h1 class="text-center text-2xl font-bold capitalize">Tentang saya</h1>
+          <p class="p-5 text-center text-base text-slate-800">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, ipsa at. Consequuntur aut error officia neque tempora adipisci quia culpa!"</p>
+        </div>
+        <div class="mt-5 lg:mt-0 shadow-xl w-full lg:shadow-none ">
+          <h1 class="text-center text-2xl font-bold capitalize">Pendidikan</h1>
+          <ul class="p-5 list-disc ml-14">
+            <li>SDN 108239</li>
+            <li>SMPN1 Pagar Merbau</li>
+            <li>SMKN1 Lubuk Pakam</li>
+            <li>Mahasiswa Informatika STMIK Pelita Nusantara</li>
+          </ul>
+        </div>
+        <div class="mt-5 lg:mt-0 shadow-xl w-full lg:shadow-none">
+          <h1 class="text-center text-2xl font-bold capitalize">skill</h1>
+          <div class="lg:flex lg:justify-center lg:px-5 lg:w-4/5 lg:m-auto lg:flex-wrap">
+            <div class="flex justify-center flex-nowrap mt-5 ">
+              <div class="html w-16 lg:w-15">
+                <img src="img/html-5.png" alt="html" />
+              </div>
+              <div class="css w-16 lg:w-15">
+                <img src="img/css-3.png" alt="css" />
+              </div>
+            </div>
+            <div class="flex justify-around flex-nowrap mt-5">
+              <div class="sass w-16 lg:w-15">
+                <img src="img/sass.png" alt="sass" />
+              </div>
+              <div class="tailwind w-16 lg:w-15">
+                <img src="img/tai-removebg-preview.png" alt="tailwind" />
+              </div>
+            </div>
+            <div class="flex justify-center flex-nowrap mt-5 pb-5">
+              <div class="bootstrap w-16 lg:w-15">
+                <img src="img/bootstrap.png" alt="bootstrap" />
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-full lg:m-auto lg:animate-bounce lg:mt-12">
+        <a href="#project"><img src="img/down-arrow.png" class="pr-10 lg:pr-0 lg:m-auto lg:-mt-5 w-10 lg:hover:bg-teal-600 lg:hover:rounded-full lg:duration-700 ease-in-out" alt="down" /></a>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- project -->
+    <section id="project" class="w-full lg:mb-10 mt-5">
+      <h1 class="text-center pt-12 font-bold text-teal-700 text-sm">Project</h1>
+      <div class="w-4/5 mx-auto  mt-5 lg:flex lg:justify-between lg:shadow-xl lg:p-8">
+        <div class="shadow-xl p-3 ">
+          <h1 class="text-center text-2xl font-semibold m-2">Website 1</h1>
+          <img src="img/port.png" alt="Portfolio">
+          <p class="text-center p-3 ">"Ini adalah project Portfolio pertama kali yang saya buat, dan dibuat menggunakan Bootstrap, AOS dan javascript."</p>
+          <a href="https://sastrapradana.github.io/"><button class="bg-teal-600 m-auto block rounded-2xl px-2 py-2 text-sm capitalize text-white hover:bg-teal-800 ease-in-out duration-300">pergi</button></a>
+        </div>
+        <div class="shadow-xl p-3 my-8 lg:my-0 lg:mx-5">
+          <h1 class="text-center text-2xl font-semibold m-2">Website 2</h1>
+          <img src="img/bzr.png" alt="Portfolio">
+          <p class="text-center p-3 ">"Ini adalah sebuah website saya dengan sahabat saya yang dibuat menggunakan bootstrap."</p>
+          <a href="https://sastrapradana.github.io/Brazzers.github.io/"><button class="bg-teal-600 m-auto block rounded-2xl px-2 py-2 text-sm capitalize text-white hover:bg-teal-800 ease-in-out duration-300">pergi</button></a>
+        </div>
+        <div class="shadow-xl p-3">
+          <h1 class="text-center text-2xl font-semibold m-2">Website 3</h1>
+          <img src="img/zn.png" alt="Motivasi">
+          <p class="text-center p-3 ">"Ini adalah website tentang motivasi-motivasi sederhana yang saya ambil dari sosmed dan dibuat menggunakan Bootstrap dan AOS  ."</p>
+          <a href="https://sastrapradana.github.io/MotivasiZN.github.io/"><button class="bg-teal-600 m-auto block rounded-2xl px-2 py-2 text-sm capitalize text-white hover:bg-teal-800 ease-in-out duration-300">pergi</button></a>
+        </div>
+      </div>
+      <div class="lg:w-full lg:m-auto lg:animate-bounce lg:mt-12">
+        <a href="#contact"><img src="img/down-arrow.png" class="pr-10 lg:pr-0 lg:m-auto lg:-mt-5 w-10 lg:hover:bg-teal-600 lg:hover:rounded-full lg:duration-700 ease-in-out" alt="down" /></a>
+      </div>
+    </section>
+    <!-- end project -->
+    <!-- contact -->
+    <section id="contact" class="mt-10 w-full">
+      <h1 class="text-center pt-10 font-bold text-teal-700 text-sm">Contact</h1>
+      <div class="w-11/12 m-auto p-5 mt-5 shadow-2xl lg:w-3/4 lg:bg-gray-300 lg:mt-5 lg:rounded-lg lg:m-auto">
+      <div class="w-full">
+        <form action="">
+          <label for="Nama" class="text-base font-semibold">Nama</label>
+            <input type="text" id="Nama" placeholder="Masukkan Nama" class="border shadow-lg w-full p-1 mt-1 rounded-md focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 placeholder:text-sm ">
+        </form>
+      </div>
+      <div class="w-full mt-5">
+        <form action="">
+          <label for="Email" class="text-base font-semibold">Email</label>
+            <input type="text" id="Email" placeholder="Masukkan Email" class="border shadow-lg w-full p-1 mt-1 rounded-md focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 placeholder:text-sm ">
+        </form>
+      </div>
+      <div class="w-full mt-5">
+        <form action="">
+          <label for="Telepon" class="text-base font-semibold">No Telp</label>
+            <input type="tel" id="Telepon" placeholder="Masukkan No Telepon" class="border shadow-lg w-full p-1 mt-1 rounded-md focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 placeholder:text-sm ">
+        </form>
+      </div>
+      <div class="w-full mt-5">
+        <form action="">
+          <label for="Pesan" class="text-base font-semibold">Pesan</label>
+            <textarea placeholder="Masukkan Pesan" class="border shadow-lg w-full mt-1 p-2 rounded-md focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 placeholder:text-sm h-52">
+            </textarea>
+      </div>
+      <button class="mt-3 bg-blue-500 w-24 h-8 rounded-xl text-white shadow-xl hover:bg-blue-600 ease-in-out duration-500 ">Kirim </button>
+    </div>
+    </section>
+    <!-- contact end -->
+    <!-- foter -->
+    <section class="mt-5">
+      <footer class="bg-gradient-to-r from-slate-900 to-teal-500">
+        <h1 class="text-center text-white p-4 underline capitalize text-sm ">Kontak saya</h1>
+        <div class="flex justify-center">
+          <a href="http://facebook.com/Sastra.Pradana"><svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="http://instagram.com/sastrapradb" class="px-2"><svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+          <a href="http://twitter.com/sastrapradana16"><svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
+        </div>
+        <div class="flex justify-center p-5 items-center">
+          <img src="img/copyright.png" alt="" class="w-3">
+          <p class="text-xs ml-">copyright 2022, <span class="text-sm text-slate-200">Sastra Pradana</span></p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
